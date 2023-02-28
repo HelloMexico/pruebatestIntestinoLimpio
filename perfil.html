@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Perfil</title>
+    <!-- <link rel="shortcut icon" href="./assets/img/naran.ico" type="image/x-icon"> -->
+    <link rel="icon" href="./assets/img/usuario.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand tituloNav" href="index.html" style="padding-left: 90px;">Intestino Limpio</a> -->
+            <a class="navbar-brand tituloNav" href="index.html">Intestino Limpio</a>
+
+            <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon hamburgueicon" style="border: none;"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 100px;"> -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- <ul class="navbar-nav p-2"> -->
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item p-2"> -->
+                    <li class="nav-item navItemUno">
+                        <a class="nav-link" href="crearPlan.html">
+                            <div class="row">
+                                <div class="col-1 col-md-1 col-sm-3">
+                                    <img class="imgCreaNuevoPlan" alt="">
+                                </div>
+                                <div class="col-9 col-md-9 col-sm-3">
+                                    <p class="parraffo" style="font-size: 14px;">Crear nuevo plan de tomas</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <hr>
+                    <div class="vr" style="width: 1px; height: 50px; margin-top: 5px;"></div>
+
+                    <!-- <li class="nav-item pt-2"> -->
+                    <li class="nav-item" style="width: 15%;">
+                        <a class="nav-link" href="consultaPlan.html">
+                            <div class="row">
+                                <div class="col-1 col-md-1 col-sm-3">
+                                    <img class="imgConsultaPlan" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <p class="parraffo" style="font-size: 14px;">
+                                        Consultar plan de tomas e hidrataciones</p>
+                                </div>
+                            </div>
+
+                        </a>
+                    </li>
+                    <hr>
+                    <div class="vr" style="width: 1px; height: 50px; margin-top: 5px;"></div>
+                    <!-- <li class="nav-item pt-2"> -->
+                    <li class="nav-item" style="width: 10%;">
+                        <a class="nav-link" href="preguntaFrec.html">
+                            <div class="row">
+                                <div class="col-1 col-md-1 col-sm-3">
+                                    <img class="imgPregFrec" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <p class="parraffo" style="font-size: 14px;">
+                                        Preguntas frecuentes</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <hr>
+                    <div class="vr" style="width: 1px; height: 50px; margin-top: 5px;"></div>
+                    <!-- <li class="nav-item pt-2"> -->
+                    <li class="nav-item" style="width: 10%;">
+                        <a class="nav-link" href="pregfrecuent.html">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img class="imgProtecDatos" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <p class="parraffo" style="font-size: 14px;">
+                                        Protección de datos
+                                        personales</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <hr>
+                    <div class="vr" style="width: 1px; height: 50px; margin-top: 5px;"></div>
+                    <!-- <li class="nav-item pt-2"> -->
+                    <li class="nav-item" style="width: 10%;">
+                        <a class="nav-link" href="#">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img class="imgContactaVia" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <p class="parraffo" style="font-size: 14px;">
+                                        Contáctanos vía WhatsApp</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <hr>
+                    <div class="vr" style="width: 1px; height: 50px; margin-top: 5px;"></div>
+
+                    <!-- <li class="nav-item pt-2"> -->
+                    <li class="nav-item" style="width: 15%;">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img class="imgAjustes" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <p class="parraffo" style="font-size: 14px;">
+                                        Ajustes</p>
+                                </div>
+                            </div>
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="perfil.html"><img class="imgPerfil" alt=""> Perfil</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><img class="imgCerrar" alt=""> Cerrar Sesión</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <!-- <div class="contenidoCentradoItems"> -->
+    <!-- <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> -->
+    <div class="container border">
+        <div class="row p-2">
+            <!-- <div class="col-xl-6 col-sm-3 col-md-3"> -->
+            <div class="col-6 col-sm-3 col-md-3">
+                <a type="button" class="btnFlecha" href="index.html">
+                </a>
+            </div>
+            <!-- <div class="col-xl-6 col-sm-3 col-md-3"> -->
+            <div class="col-6 col-sm-3 col-md-3">
+                <h1 class="tituloPregFrecu tituloPerfil">Perfil</h1>
+            </div>
+            <!-- <div class="col-auto border">
+                <p></p>
+            </div> -->
+        </div>
+        <br>
+        <div class="row p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-6 col-md-6 border text-center">
+                        <img src="./assets/img/web/Enmascarar grupo 2.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-xl-6 col-sm-6 col-md-6 border">
+                        <form action="" class="row mb-3">
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="formGroupExampleInput" class="form-label">Teléfono celular</label>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput" placeholder="+52">
+                            </div>
+                            <div class="col-8 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput"
+                                    placeholder="55467841245">
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Estado</label>
+                                <!-- <input type="email" class="form-control" name="" id="emailInput" placeholder="Ciudad"> -->
+                            </div>
+                            <div class="col-11 mb-3">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Estado</option>
+                                    <option value="1">Mexicali</option>
+                                    <option value="2">Aqui va estado</option>
+                                    <option value="3"></option>
+                                </select>
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Ciudad</label>
+                                <!-- <input type="email" class="form-control" name="" id="emailInput" placeholder="Ciudad"> -->
+                            </div>
+                            <div class="col-11 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput" placeholder="Mexicali">
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Edad</label>
+                                <!-- <input type="email" class="form-control" name="" id="emailInput" placeholder="Ciudad"> -->
+                            </div>
+                            <div class="col-11 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput" placeholder="12">
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="staticEmail" class="col-sm-4 col-form-label">Nombre del médico
+                                    tratante</label>
+                                <!-- <input type="email" class="form-control" name="" id="emailInput" placeholder="Ciudad"> -->
+                            </div>
+                            <div class="col-11 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput"
+                                    placeholder="Juan Andrés">
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="staticEmail" class="col-sm-4 col-form-label"> Apellidos del médico
+                                    tratante</label>
+                                <!-- <input type="email" class="form-control" name="" id="emailInput" placeholder="Ciudad"> -->
+                            </div>
+                            <div class="col-11 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput"
+                                    placeholder="Márquez Luria">
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                            <div class="col-12 mb-3 ms-3">
+                                <label for="staticEmail" class="col-sm-3 col-form-label"> Clave de acceso</label>
+                                <!-- <input type="email" class="form-control" name="" id="emailInput" placeholder="Ciudad"> -->
+                            </div>
+                            <div class="col-11 mb-3">
+                                <input type="email" class="form-control" name="" id="emailInput" placeholder="****">
+                            </div>
+                            <div class="col-1 mb-3 g-2">
+                                <a href="" type="button" class="btnEditarPlan"></a>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label parrafoCheckLeido" for="flexRadioDefault1">He leído y
+                                        acepto los términos, condiciones y el aviso de
+                                        privacidad.
+                                        <p>*El uso de esta plataforma no sustituye bajo ninguna
+                                            circunstancia la recomendación de su médico tratante.</p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <!-- <button type="submit" class="btnGuardar rounded">GUARDAR</button> -->
+                                <a href="" type="button" class="btnGuardar rounded text-center" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal2">GUARDAR</a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header modalHeaderModificar">
+                                                <!-- <div class="contenidoDerecha"> -->
+                                                <button type="button" class="btn-close btnCerrarModalModificar"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <!-- </div> -->
+
+                                            </div>
+                                            <div class="modal-body" style="border: none;">
+                                                <p class="text-center parrafoVaModificarInfor">Va a modificar la
+                                                    información de ingreso, esto
+                                                    podría afectar las alertas vía WhatsApp</p>
+                                                <p class="parrafoEstasSeguro text-center">¿Está seguro de que quiere
+                                                    continuar?</p>
+
+                                            </div>
+                                            <div class="modal-footer" style="border: none;">
+
+                                                <button type="button" class="rounded btnAceptarModalModifica"
+                                                    data-bs-dismiss="modal">ACEPTAR</button>
+                                                <br><!-- <br> -->
+                                                <button type="button"
+                                                    class="rounded btnCancelarModalModifica">CANCELAR</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <br>
+    </div>
+    <br>
+    </div>
+    <br>
+</body>
+
+</html>

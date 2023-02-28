@@ -1,0 +1,166 @@
+.imgCreaNuevoPlan {
+    background-image: url("../assets/img/web/lista-de-tareas-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 16px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 3px;
+   /*  padding: 10px; */
+}
+
+.imgCreaNuevoPlan:hover {
+    background-image: url("../assets/img/web/lista-de-tareas.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgConsultaPlan {
+    background-image: url("../assets/img/web/lista-de-tareas\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgConsultaPlan:hover {
+    background-image: url("../assets/img/web/lista-de-tareas-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgPregFrec {
+    background-image: url("../assets/img/web/signo-de-interrogacion_gris.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgPregFrec:hover {
+    background-image: url("../assets/img/web/signo-de-interrogacion.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgProtecDatos {
+    background-image: url("../assets/img/web/proteccion\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgProtecDatos:hover {
+    background-image: url("../assets/img/web/protección\ 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgContactaVia {
+    background-image: url("../assets/img/web/whatsapp\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.imgContactaVia:hover {
+    background-image: url("../assets/img/web/whatsapp\ \(3\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.imgAjustes {
+    background-image: url("../assets/img/web/ajustes.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgAjustes:hover {
+    background-image: url("../assets/img/web/ajustes\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgPerfil {
+    background-image: url("../assets/img/web/usuario\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgPerfil:hover {
+    background-image: url("../assets/img/web/usuario\ \(2\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.imgCerrar {
+    background-image: url("../assets/img/web/opcion-de-cerrar-sesion.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    /* gap: 30px; */
+    /* border: none; */
+    margin-right: 10px;
+}
+
+.imgCerrar:hover {
+    background-image: url("../assets/img/web/opcion-de-cerrar-sesion\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    /*  gap: 30px; */
+    /* border: none; */
+}

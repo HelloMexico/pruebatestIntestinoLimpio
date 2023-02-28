@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intestino Limpio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./assets/img/naran.ico" type="image/x-icon">
+</head>
+
+<body>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-sm-6 col-md-6">
+                <h1></h1>
+            </div>
+            <div class="col-xl-6 col-sm-6 col-md-6">
+                <h1 class="tituloPrincipal text-center">Intestino Limpio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-6 col-md-6 text-center">
+                        <img src="./assets/img/web/Enmascarar grupo 2.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-xl-6 col-sm-6 col-md-6">
+                        <p class="m-2 parrafoUno">Mantenga un <span>intestino limpio,</span> previo a los estudios de
+                            Rayos X, colonoscopia o cirugías..</p>
+                        <p id="" class="m-2 parrafoNuestra">Con el sitio de Intestino Limpio usted podrá
+                            programar el horario del estudio y recibir
+                            notificaciones cuando sea la hora de toma del
+                            medicamento o de hidratación. Facilitando el apego
+                            al tratamiento.</p>
+                        <p class="m-2 parrafoGenera">Para generar tu programación de toma de medicamento, llena los
+                            siguientes campos: <span>(Todos los campos son obligatorios)</span></p>
+                        <p class="m-2 parrafoCreaPlanToma">Si ya creó su plan antes, dé clic en iniciar sesión.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <!-- <div class="d-grid gap-2"> -->
+                                    <form action="" class="form1" id="form1">
+                                        <div class="contenidoCentrado">
+                                            <button id="btn1" class="btnInicia rounded">INICIAR SESIÓN</button>
+                                        </div>
+                                        <p id="parrafoGeneraProgramacion" class="parrafoGeneraProgramacion">Para crear
+                                            un plan de tomas por primera vez:</p>
+                                        <button id="btn2" class="btnCrearPlan rounded">CREAR PLAN POR PRIMERA
+                                            VEZ</button>
+                                    </form>
+
+
+                                    <form action="" class="form2 row" id="form2">
+                                        <div class="col-xl-12 col-md-6">
+                                            <!-- <label for="inputAddress" class="form-label">Address</label> -->
+                                            <input type="text" class="form-control" id="numeroCel"
+                                                placeholder="Número de celular">
+                                        </div>
+                                        <br>
+                                        <div class="col-xl-12 col-md-6">
+                                            <!-- <label for="inputAddress" class="form-label">Address</label> -->
+                                            <input type="numeric" class="form-control" id="_claveAcceso"
+                                                placeholder="Clave de acceso" minlength="4" maxlength="4">
+                                        </div>
+                                        <br>
+                                        <div class="col-xl-12 col-md-8">
+                                            <div class="contenidoCentrado">
+                                                <!-- <button id="btn3" class="btnContinuar">CONTINUAR</button> -->
+                                                <a type="button" id="btn3" class="btnContinuar rounded"
+                                                    href="crearPlan.html">CONTINUAR</a>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="col-xl-12 col-md-8">
+                                            <div class="contenidoCentrado">
+                                                <p id="parrafoCreaPlanToma" class="parrafoCreaPlanToma">Para crear un
+                                                    plan de tomas por primera vez:</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-12 col-md-8">
+                                            <div class="contenidoCentrado">
+                                                <button id="btn4" class="btnCrearPlan rounded">CREAR PLAN POR PRIMERA
+                                                    VEZ</button>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </form>
+                                    <form action="" class="form3 mb-3" id="form3">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Seleccione un país</option>
+                                                    <option value="1">México</option>
+                                                    <option value="2">Costa Rica</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Lada</option>
+                                                    <option value="1">+52</option>
+                                                    <option value="2">+</option>
+                                                    <option value="3">+</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-8 mb-3">
+                                                <input type="email" class="form-control" name="" id="emailInput"
+                                                    placeholder="Teléfono celular">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Seleccione un estado</option>
+                                                <option value="1">+</option>
+                                                <option value="2">+</option>
+                                                <option value="3">+</option>
+                                            </select>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-5 mb-3">
+                                                <!-- <label for="staticEmail" class="col-sm-2 col-form-label"></label> -->
+                                                <input type="email" class="form-control" name="" id="emailInput"
+                                                    placeholder="Ciudad">
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- <div class="container"> -->
+                                                <!-- <div class="row g-3 align-items-center">
+                                                        <div class="col-auto">
+                                                            <label for="staticEmail"
+                                                                class=" col-sm-6 col-form-label"
+                                                                >Edad del
+                                                                paciente:</label>
+                                                        </div>
+                                                        <div class="col-auto col-sm-5">
+                                                            <input type="number" width="" class="form-control"
+                                                                id="inputPassword">
+                                                        </div>
+
+                                                    </div> -->
+                                                <div class="row ms-1">
+
+                                                    <div class="col-6 col-md-9">
+                                                        <label for="staticEmail"
+                                                            class=" col-sm-8 col-form-label mb-1 labelEdad">Edad del
+                                                            <!-- <span> -->paciente:<!-- </span> --></label>
+                                                    </div>
+                                                    <div class="col-6 col-md-3">
+                                                        <input type="number" width="" class="form-control"
+                                                            id="inputPassword">
+                                                    </div>
+                                                </div>
+                                                <!--  </div> -->
+
+
+                                                <!-- <div class="mb-4 row">
+                                                    <label for="staticEmail" class="col-sm-6 col-form-label">Edad del
+                                                        paciente:</label>
+                                                    <div class="col-sm-6">
+                                                        <input type="number" width="" class="form-control"
+                                                            id="inputPassword">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mb-3">
+                                                <input type="text" width="" class="form-control" id="inputPassword"
+                                                    placeholder="Peso del paciente">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mb-3">
+                                                <input type="text" width="" class="form-control" id="inputPassword"
+                                                    placeholder="Nombre de tu médico tratante">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mb-3">
+                                            <input type="text" width="" class="form-control" id="inputPassword"
+                                                placeholder="Apellido de tu médico tratante">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <input type="text" width="" class="form-control" id="inputPassword"
+                                                placeholder="Escriba una clave de acceso">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <input type="text" width="" class="form-control" id="inputPassword"
+                                                placeholder="Confirma su clave de acceso">
+                                        </div>
+                                        <div class="col">
+                                            <p class="parrafoRecordaViaWhat">Para recibir recordatorios
+                                                <span>vía whatsapp</span> sobre la toma
+                                                de medicamento y la hidratación, es importante
+                                                autorizar la recepción de los recordatorios por este
+                                                medio, dando clic en la casilla de abajo.
+                                            </p>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault">
+                                            <label class="form-check-label textoSwitchAcepto"
+                                                for="flexSwitchCheckDefault">Acepto recibir recordatorios
+                                                vía
+                                                WhatsApp</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label parrafoCheckLeido" for="flexRadioDefault1">
+                                                He leído y acepto los términos, condiciones y
+                                                el aviso de privacidad
+                                            </label>
+                                        </div>
+                                        <button id="btn3" class="btnContinuar" href="crearPlan.html">CONTINUAR</button>
+                                    </form>
+                                    <!-- <form action="" class="form3" id="form3">
+                                          </form> -->
+                                    <form action="" class="form4 mb-3" id="form4">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Seleccione un país</option>
+                                                    <option value="1">México</option>
+                                                    <option value="2">Costa Rica</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Lada</option>
+                                                    <option value="1">+52</option>
+                                                    <option value="2">+</option>
+                                                    <option value="3">+</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-8 mb-3">
+                                                <input type="email" class="form-control" name="" id="emailInput"
+                                                    placeholder="Teléfono celular">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Seleccione un estado</option>
+                                                <option value="1">+</option>
+                                                <option value="2">+</option>
+                                                <option value="3">+</option>
+                                            </select>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-5 mb-3">
+                                                <!-- <label for="staticEmail" class="col-sm-2 col-form-label"></label> -->
+                                                <input type="email" class="form-control" name="" id="emailInput"
+                                                    placeholder="Ciudad">
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- <div class="container"> -->
+                                                <!-- <div class="row g-3 align-items-center">
+                                                        <div class="col-auto">
+                                                            <label for="staticEmail"
+                                                                class=" col-sm-6 col-form-label"
+                                                                >Edad del
+                                                                paciente:</label>
+                                                        </div>
+                                                        <div class="col-auto col-sm-5">
+                                                            <input type="number" width="" class="form-control"
+                                                                id="inputPassword">
+                                                        </div>
+
+                                                    </div> -->
+                                                <div class="row ms-1">
+
+                                                    <div class="col-6 col-md-9">
+                                                        <label for="staticEmail"
+                                                            class=" col-sm-8 col-form-label mb-1 labelEdad">Edad del
+                                                            <!-- <span> -->paciente:<!-- </span> --></label>
+                                                    </div>
+                                                    <div class="col-6 col-md-3">
+                                                        <input type="number" width="" class="form-control"
+                                                            id="inputPassword">
+                                                    </div>
+                                                </div>
+                                                <!--  </div> -->
+
+
+                                                <!-- <div class="mb-4 row">
+                                                    <label for="staticEmail" class="col-sm-6 col-form-label">Edad del
+                                                        paciente:</label>
+                                                    <div class="col-sm-6">
+                                                        <input type="number" width="" class="form-control"
+                                                            id="inputPassword">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mb-3">
+                                                <input type="text" width="" class="form-control" id="inputPassword"
+                                                    placeholder="Peso del paciente">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mb-3">
+                                                <input type="text" width="" class="form-control" id="inputPassword"
+                                                    placeholder="Nombre de tu médico tratante">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mb-3">
+                                            <input type="text" width="" class="form-control" id="inputPassword"
+                                                placeholder="Apellido de tu médico tratante">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <input type="text" width="" class="form-control" id="inputPassword"
+                                                placeholder="Escriba una clave de acceso">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <input type="text" width="" class="form-control" id="inputPassword"
+                                                placeholder="Confirma su clave de acceso">
+                                        </div>
+                                        <div class="col">
+                                            <p class="parrafoRecordaViaWhat">Para recibir recordatorios
+                                                <span>vía whatsapp</span> sobre la toma
+                                                de medicamento y la hidratación, es importante
+                                                autorizar la recepción de los recordatorios por este
+                                                medio, dando clic en la casilla de abajo.
+                                            </p>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault">
+                                            <label class="form-check-label textoSwitchAcepto"
+                                                for="flexSwitchCheckDefault">Acepto recibir recordatorios
+                                                vía
+                                                WhatsApp</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label parrafoCheckLeido" for="flexRadioDefault1">
+                                                He leído y acepto los términos, condiciones y
+                                                el aviso de privacidad
+                                            </label>
+                                        </div>
+                                        <div class="contenidoCentrado">
+                                            <!-- <button id="btn3" class="btnContinuar">CONTINUAR</button> -->
+                                            <a type="button" id="btn3" class="btnContinuar rounded"
+                                                href="crearPlan.html">CONTINUAR</a>
+                                        </div>
+                                        <!-- <button id="btn3" class="btnContinuar">CONTINUAR</button> -->
+                                        <!-- <a type="button" id="btn3" class="btnContinuar rounded"
+                                                    href="crearPlan.html">CONTINUAR</a> -->
+                                    </form>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><!-- <br></br><br><br><br><br><br> -->
+    <footer>
+        <div class="container p-4">
+            <!-- <div class="row w-100 align-items-center">
+                <div class="col text-center"> -->
+            <div class="row">
+                <div class="col columnaBtnDudas">
+                    <!-- <button class="btnDudass" type="button"></button> -->
+                    <button class="btnDudas rounded" type="button">¿Dudas?
+                        <span> contáctanos vía whatsapp</span> <img src="./assets/img/web/Whatsapp Icono/whatsapp (-3.png"
+                            alt="" class="imgWhatsBlanco"></button>
+                </div>
+                <!-- <div class="d-grid gap-2">
+                    <button class="btnDudas" type="button">¿Dudas?
+                        <span> contáctanos vía whatsapp</span><img src="./assets/img/web/whatsapp (1).png"
+                            alt=""></button>
+                     <button class="btnDudass" type="button"></button>
+                </div> -->
+            </div>
+            <div class="row filaDosPermisos">
+                <div class="col text-center columnaParrafos">
+                    <p class="parrafoIntestinoAño">Intestino Limpio 2023.</p>
+                    <p class="parrafoAviso">AVISO COFEPRIS</p>
+                    <p class="parrafoNumeroReg">No. REG. MEX: 012M2013 SSA</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/prueba.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¡Hey! Consulta tu plan</title>
+  <!-- <link rel="shortcut icon" href="./assets/img/naran.ico" type="image/x-icon"> -->
+  <link rel="icon" href="./assets/img/naran.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand tituloNav" href="index.html">Intestino Limpio</a>
+      <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon hamburgueicon" style="border: none;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="crearPlan.html">
+              <p class="parraffo"> <img class="imgCreaNuevoPlan" alt="">
+                Crear nuevo plan de tomas</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="consultaPlan.html">
+              <p class="parraffo"> <img class="imgConsultaPlan" alt="">
+                Consultar plan de tomas e hidrataciones</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="preguntaFrec.html">
+              <p class="parraffo"> <img class="imgPregFrec" alt="">
+                Preguntas frecuentes</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pregfrecuent.html">
+              <p class="parraffo"> <img class="imgProtecDatos" alt="">
+                Protección de datos
+                personales</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <p class="parraffo"> <img class="imgContactaVia" alt="">
+                Contáctanos vía WhatsApp</p>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="imgAjustes" alt=""> Ajustes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="perfil.html"><img class="imgPerfil" alt=""> Perfil</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"><img class="imgCerrar" alt=""> Cerrar Sesión</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!-- <div class="contenidoCentradoItems"> -->
+  <!-- <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> -->
+  <div class="container">
+    <div class="row border filaPlan">
+      <div class="col-2 col-md-2">
+        <a type="button" class="btnFlecha" href="index.html">
+        </a>
+      </div>
+      <div class="col-10 col-md-10">
+        <h1 class="tituloPlanToma">Plan de tomas e hidrataciones</h1>
+      </div>
+    </div>
+    <div class="row filaPlanTabla">
+      <div class="col-12 col-md-12 col-sm-12 text-center">
+        <img src="../assets/img/mobile/Recurso 23x.png" class="img-fluid imgNaranjinPlan" alt="...">
+      </div>
+    </div>
+    <br>
+    <!-- <div class="filaPlanTabla"> -->
+    <div class="container contenedorMovil ">
+      <div class="row">
+        <div class="col-7">
+          <div class="container">
+            <div class="row border ">
+              <div class="col col-md-5">
+                <p class="parrafoEstudioProgramado">Estudio programado para:</p>
+                <p class="parrafoFechaEstudio">Fecha: <span>25/08/2023</span></p>
+                <p class="parrafoHoraEstudio">Hora: <span>18:00 hrs</span></p>
+              </div>
+            </div>
+            <div class="row border">
+              <div class="col">
+                <p class="parrafoPrimerToma">Primera toma de Picoprep :</p>
+                <p class="parrafoFechaPrimerToma">Fecha: <span>24/08/2023</span></p>
+                <p class="parrafoHoraPrimerToma">Hora: <span>15:00 hrs</span></p>
+              </div>
+            </div>
+            <div class="row border">
+              <div class="col">
+                <p class="parrafoSegundaToma">Segunda toma de Picoprep :</p>
+                <p class="parrafoFechaSegundaToma">Fecha: <span>25/08/2023</span></p>
+                <p class="parrafoHoraSegundaToma">Hora: <span>08:00 hrs</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 col-md-4 col-sm-3 border" style="background-color:  #F2F2F2;">
+          <a href="" type="button" class="btnEditarPlan"  data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header" style="border: none;">
+
+                  <button type="button" class="btn-close btnCerrarModal" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="border: none;">
+                  <h1 class="modal-title tituloModal" id="exampleModalLabel">Editar plan de tomas e
+                    hidrataciones</h1>
+                  <form>
+                    <div class="mb-3">
+                      <label for="" class="form-label labelModalEditarFechaEstu">Fecha de estudio</label>
+                      <input type="date" class="form-control inputLabelFechaModalEditarPlan" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                      <!-- <input type="date" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"> -->
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1 labelModalEditarHoraColonos" class="form-label">Hora de la colonoscopía o estudio</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="18:00 Hrs">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Fecha de la primera toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="23/11/2022">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Hora de la primera toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="18:00 Hrs">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Fecha de la segunda toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="23/11/2022">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Hora de la segunda toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="22:00 Hrs">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer" style="border: none;">
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col-md-4 pb-4">
+                        <button type="button" class="rounded btnGuardarModalPlan"
+                          data-bs-dismiss="modal">GUARDAR</button>
+                      </div>
+                      <div class="col-md-4 offset-md-4">
+                          <button type="button" class="rounded btnCancelarModalPlan">CANCELAR</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row fila">
+      <div class="col-3 col-md-3 col-sm-2 border">
+        <p class="parrafoEstudioProgramado">Estudio programado para:</p>
+        <!-- <br> -->
+        <p class="parrafoFechaEstudio">Fecha: <span>25/08/2023</span></p>
+        <p class="parrafoHoraEstudio">Hora: <span>18:00 hrs</span></p>
+      </div>
+      <div class="col-3 col-md-3 col-sm-3 border">
+        <p class="parrafoPrimerToma">Primera toma de Picoprep :</p>
+        <!-- <br> -->
+        <p class="parrafoFechaPrimerToma">Fecha: <span>24/08/2023</span></p>
+        <p class="parrafoHoraPrimerToma">Hora: <span>15:00 hrs</span></p>
+      </div>
+      <div class="col-3 col-md-3 col-sm-3 border">
+        <p class="parrafoSegundaToma">Segunda toma de Picoprep :</p>
+        <!-- <br> -->
+        <p class="parrafoFechaSegundaToma">Fecha: <span>25/08/2023</span></p>
+        <p class="parrafoHoraSegundaToma">Hora: <span>08:00 hrs</span></p>
+      </div>
+      <div class="col-1 col-md-3 col-sm-2 border" style="background-color:  #F2F2F2;">
+        <!-- <a href="" type="button" class="btnEditarPlan" style="margin-top: 60px;"></a> -->
+        <a href="" type="button" class="btnEditarPlan"  data-bs-toggle="modal" data-bs-target="#exampleModal1"></a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header" style="border: none;">
+
+                  <button type="button" class="btn-close btnCerrarModal" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="border: none;">
+                  <h1 class="modal-title tituloModal" id="exampleModalLabel1">Editar plan de tomas e
+                    hidrataciones</h1>
+                  <form>
+                    <div class="mb-3">
+                      <label for="" class="form-label labelModalEditarFechaEstu">Fecha de estudio</label>
+                      <input type="date" class="form-control inputLabelFechaModalEditarPlan" id="exampleInputEmail11"
+                        aria-describedby="emailHelp">
+                      <!-- <input type="date" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"> -->
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1 labelModalEditarHoraColonos" class="form-label">Hora de la colonoscopía o estudio</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="18:00 Hrs">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Fecha de la primera toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="23/11/2022">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Hora de la primera toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="18:00 Hrs">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Fecha de la segunda toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="23/11/2022">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Hora de la segunda toma de Picoprep</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="22:00 Hrs">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer" style="border: none;">
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col-md-4 pb-4">
+                        <button type="button" class="rounded btnGuardarModalPlan"
+                          data-bs-dismiss="modal">GUARDAR</button>
+                      </div>
+                      <div class="col-md-4 offset-md-4">
+                          <button type="button" class="rounded btnCancelarModalPlan">CANCELAR</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </div>
+  <!-- </div> -->
+
+  <br>
+  <div class="container border">
+    <div class="row">
+      <div class="col-1 col-md-3 col-sm-5 text-center columnaUno">
+        <img src="./assets/img/web/681332-300-300 1_2.png" class="imgMediPicoprep" alt="..." width="">
+      </div>
+      <div class="col-6 col-md-3 col-sm-5 columnaDos">
+        <!-- <div class="card mb-3" style="max-width: 640px;"> -->
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Primera toma de PICOPREP®️:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text">Hora: 15:00 hrs</p>
+                <p class="card-text"><small class="text-muted">Disolver en 150ml</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 15:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 16:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 17:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 17:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 18:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/681332-300-300 1_2.png" class="imgMediPicoprep" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-2 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Segunda toma de PICOPREP®️:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text">Hora: 19:00 hrs</p>
+                <p class="card-text"><small class="text-muted">Disolver en 150ml</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 19:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 20:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-1 col-md-3 col-sm-3 text-center columnaUno">
+        <img src="./assets/img/web/vaso-de-agua (2).png" class="imgVasoAgua" alt="..." width="">
+      </div>
+      <div class="col-xl-5 col-md-3 col-sm-3 columnaDos">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Hidratación con 250 ml de agua:</h5>
+                <p class="card-text">Fecha: 24/08/2023</p>
+                <p class="card-text"><small class="text-muted">Hora: 21:00 hrs</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="submit" class="btnDescargaPlan rounded">DESCARGAR PLAN</button>
+      </div>
+    </div>
+    <br>
+  </div>
+</body>
+
+</html>
